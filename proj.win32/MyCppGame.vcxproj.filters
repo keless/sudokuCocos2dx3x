@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\View">
+      <UniqueIdentifier>{f0cc6977-5c6c-4a58-a356-23f032c3acd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ZZ">
+      <UniqueIdentifier>{95832ab5-601c-471c-8b73-8a563be2fe06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ext">
+      <UniqueIdentifier>{332bfc7d-b2d5-470e-a1e9-5919a17ec6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ext\json">
+      <UniqueIdentifier>{7851cde6-10d1-4439-8fc9-5e3190c6f041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model">
+      <UniqueIdentifier>{072aade1-d1cb-4c91-97eb-ec6e7c1eba63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Controller">
+      <UniqueIdentifier>{e8796cf9-6faf-45ed-853b-2f0ecaade767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SudokuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZAnimatedSprite.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZEventBus.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZJsonManager.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZProgressBar.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZRadialLayer.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZRadioGroup.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZTextField.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZTouchableNode.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ZZ\ZZUtils.cpp">
+      <Filter>Classes\ZZ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ext\json\json_reader.cpp">
+      <Filter>Classes\ext\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ext\json\json_value.cpp">
+      <Filter>Classes\ext\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ext\json\json_writer.cpp">
+      <Filter>Classes\ext\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model\SudokuSheetModel.cpp">
+      <Filter>Classes\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\SudokuGridView.cpp">
+      <Filter>Classes\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Controller\SudokuActionCommand.cpp">
+      <Filter>Classes\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\SudokuNumberSelectionView.cpp">
+      <Filter>Classes\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\View\SudokuInkSelectionView.cpp">
+      <Filter>Classes\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SudokuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZAnimatedSprite.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZDefines.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZEventBus.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZJsonManager.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZProgressBar.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZRadialLayer.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZRadioGroup.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZTextField.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZTouchableNode.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ZZ\ZZUtils.h">
+      <Filter>Classes\ZZ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\autolink.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\config.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\features.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\forwards.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\json.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\json_batchallocator.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\reader.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\value.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ext\json\writer.h">
+      <Filter>Classes\ext\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\SudokuSheetModel.h">
+      <Filter>Classes\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\SudokuGridView.h">
+      <Filter>Classes\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Controller\SudokuActionCommand.h">
+      <Filter>Classes\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\SudokuNumberSelectionView.h">
+      <Filter>Classes\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefines.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\View\SudokuInkSelectionView.h">
+      <Filter>Classes\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\ext\json\json_internalarray.inl">
+      <Filter>Classes\ext\json</Filter>
+    </None>
+    <None Include="..\Classes\ext\json\json_internalmap.inl">
+      <Filter>Classes\ext\json</Filter>
+    </None>
+    <None Include="..\Classes\ext\json\json_valueiterator.inl">
+      <Filter>Classes\ext\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
